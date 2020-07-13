@@ -1,0 +1,43 @@
+/* 
+Style Sheet for CS202
+* version: 1.0
+* last modified: 6.29.2020
+* author: Enrique Gomez
+* email: gomeze2@wwu.edu
+* website: lesson 3
+*/
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js");
+
+// Style rule
+
+/* selector{declaration;} */
+/* selector{property:value;} */
+:root{
+    --main-color: #05a081;
+}
+
+//scss variable
+$primary: red;
+$margin: 22px;
+
+
+body{
+    //import rule
+    background-color: #fffef0 !important;
+    //font
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+h2{
+    color: var(--main-color);
+}
+h3{
+    color: red;
+}
